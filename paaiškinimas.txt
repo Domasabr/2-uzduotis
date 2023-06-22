@@ -1,0 +1,14 @@
+Šiame skripte naudojami šie algoritmai ir duomenų struktūros:
+
+Linijinė paieška:
+Funkcija "tiesine_paieska" įgyvendina linijinę paiešką, kad rastų studentus, kurių vardai turi nurodytą raktažodį. Ji eina per studentų sąrašą ir patikrina, ar raktažodis yra studento vardas.
+
+Dvejetainė paieška:
+Funkcija "dvejetaine_paieska" įgyvendina dvejetainę paiešką, kad rastų studentus, kurių vardai atitinka nurodytą raktažodį. Ji priklauso nuo studentų sąrašo surūšiavimo pagal vardą. Ji kartojamai padalija paieškos erdvę per pusę ir lygina raktažodį su viduriniu elementu, kol randamas atitikmuo arba išeikvojama paieškos erdvė.
+
+Rūšiavimas:
+Funkcijos "rikiavimas_pagal_skaiciu" ir "rikiavimas_pagal_abecele" įgyvendina studentų rūšiavimą pagal skaitinę ir abėcėlės tvarka atitinkamai. Jos naudoja sorted funkciją su key parametru, nurodantį pagal kurią savybę rūšiavimas turi būti atliktas.
+
+Duomenų struktūros:
+Klasė "Studentas" atstovauja studentui ir saugo jų atributus, tokius kaip vardas, amžius, pažymys, miestas ir adresas. Ji naudoja objekto kintamuosius, kad laikytų duomenis.
+Sąrašas studentai sudarytas iš "Studentas" klasės objektų, atstovaujantis studentų kolekcijai.
